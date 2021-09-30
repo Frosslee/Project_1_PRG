@@ -14,6 +14,7 @@ namespace Project_1_PRG
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("hello");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
