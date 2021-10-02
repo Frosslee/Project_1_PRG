@@ -29,6 +29,7 @@ namespace Project_1_PRG
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< Updated upstream
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbUsername = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -116,6 +117,18 @@ namespace Project_1_PRG
             this.Text = "frmLogin";
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.SuspendLayout();
+            // 
+            // frmLogin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(2306, 1086);
+            this.Name = "frmLogin";
+            this.Text = "frmLogin";
+            this.ResumeLayout(false);
+>>>>>>> Stashed changes
 
         }
 
