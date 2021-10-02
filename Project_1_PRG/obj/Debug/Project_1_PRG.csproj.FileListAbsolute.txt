@@ -1,0 +1,12 @@
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.csproj.AssemblyReference.cache
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.frmLogin.resources
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.Properties.Resources.resources
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.Regestration.resources
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.csproj.GenerateResource.cache
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\working claassss\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.csproj.AssemblyReference.cache
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\working claassss\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.frmLogin.resources
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\working claassss\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.Properties.Resources.resources
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\working claassss\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.Regestration.resources
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\working claassss\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.csproj.GenerateResource.cache
+C:\Users\franc\OneDrive - belgiumcampus.ac.za\study\2nd Year\PRG\PRG 282\assignment\Project\working claassss\Project_1_PRG\Project_1_PRG\obj\Debug\Project_1_PRG.csproj.CoreCompileInputs.cache

@@ -29,38 +29,38 @@ namespace Project_1_PRG
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbPassword = new System.Windows.Forms.TextBox();
-            this.tbUsername = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
+            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.txtusername = new System.Windows.Forms.TextBox();
+            this.BtnLogin = new System.Windows.Forms.Button();
             this.lbUsername = new System.Windows.Forms.Label();
             this.lbPassword = new System.Windows.Forms.Label();
-            this.lnkRegister = new System.Windows.Forms.LinkLabel();
-            this.lnkForgottenPassword = new System.Windows.Forms.LinkLabel();
+            this.brnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // tbPassword
+            // txtpassword
             // 
-            this.tbPassword.Location = new System.Drawing.Point(74, 144);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(100, 20);
-            this.tbPassword.TabIndex = 0;
+            this.txtpassword.Location = new System.Drawing.Point(74, 144);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.PasswordChar = '*';
+            this.txtpassword.Size = new System.Drawing.Size(109, 20);
+            this.txtpassword.TabIndex = 0;
             // 
-            // tbUsername
+            // txtusername
             // 
-            this.tbUsername.Location = new System.Drawing.Point(74, 76);
-            this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(100, 20);
-            this.tbUsername.TabIndex = 1;
+            this.txtusername.Location = new System.Drawing.Point(74, 76);
+            this.txtusername.Name = "txtusername";
+            this.txtusername.Size = new System.Drawing.Size(109, 20);
+            this.txtusername.TabIndex = 1;
             // 
-            // btnLogin
+            // BtnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(85, 200);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
-            this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.BtnLogin.Location = new System.Drawing.Point(89, 200);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(75, 23);
+            this.BtnLogin.TabIndex = 2;
+            this.BtnLogin.Text = "Login";
+            this.BtnLogin.UseVisualStyleBackColor = true;
+
             // 
             // lbUsername
             // 
@@ -80,40 +80,30 @@ namespace Project_1_PRG
             this.lbPassword.TabIndex = 5;
             this.lbPassword.Text = "Password";
             // 
-            // lnkRegister
+            // brnRegister
             // 
-            this.lnkRegister.AutoSize = true;
-            this.lnkRegister.Location = new System.Drawing.Point(95, 226);
-            this.lnkRegister.Name = "lnkRegister";
-            this.lnkRegister.Size = new System.Drawing.Size(46, 13);
-            this.lnkRegister.TabIndex = 6;
-            this.lnkRegister.TabStop = true;
-            this.lnkRegister.Text = "Register";
-            // 
-            // lnkForgottenPassword
-            // 
-            this.lnkForgottenPassword.AutoSize = true;
-            this.lnkForgottenPassword.Location = new System.Drawing.Point(119, 167);
-            this.lnkForgottenPassword.Name = "lnkForgottenPassword";
-            this.lnkForgottenPassword.Size = new System.Drawing.Size(86, 13);
-            this.lnkForgottenPassword.TabIndex = 7;
-            this.lnkForgottenPassword.TabStop = true;
-            this.lnkForgottenPassword.Text = "Forgot Password";
+            this.brnRegister.Location = new System.Drawing.Point(74, 229);
+            this.brnRegister.Name = "brnRegister";
+            this.brnRegister.Size = new System.Drawing.Size(109, 23);
+            this.brnRegister.TabIndex = 8;
+            this.brnRegister.Text = "Register New User";
+            this.brnRegister.UseVisualStyleBackColor = true;
+            this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(258, 283);
-            this.Controls.Add(this.lnkForgottenPassword);
-            this.Controls.Add(this.lnkRegister);
+            this.Controls.Add(this.brnRegister);
             this.Controls.Add(this.lbPassword);
             this.Controls.Add(this.lbUsername);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.tbUsername);
-            this.Controls.Add(this.tbPassword);
+            this.Controls.Add(this.BtnLogin);
+            this.Controls.Add(this.txtusername);
+            this.Controls.Add(this.txtpassword);
             this.Name = "frmLogin";
             this.Text = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,12 +111,11 @@ namespace Project_1_PRG
 
         #endregion
 
-        private System.Windows.Forms.TextBox tbPassword;
-        private System.Windows.Forms.TextBox tbUsername;
-        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.TextBox txtusername;
+        private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.Label lbUsername;
         private System.Windows.Forms.Label lbPassword;
-        private System.Windows.Forms.LinkLabel lnkRegister;
-        private System.Windows.Forms.LinkLabel lnkForgottenPassword;
+        private System.Windows.Forms.Button brnRegister;
     }
 }
